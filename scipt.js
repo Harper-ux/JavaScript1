@@ -38,3 +38,11 @@ header.onmouseover = function (){
 header.onmouseout = function (){
     header.style.color="black";
 }
+//declare a variable to work on the text input username
+
+let username = document.getElementById("username");
+
+username.onchange = function(){
+    container.innerHTML += username.Value;
+}
+
